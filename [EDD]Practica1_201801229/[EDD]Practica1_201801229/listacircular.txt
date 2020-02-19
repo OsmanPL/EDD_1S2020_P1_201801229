@@ -1,0 +1,7 @@
+digraph listaCircular{ 
+node [shape = record, height=.1, fillcolor="aquamarine"];
+node0 [label= "Ruta: C:\Users\jkamg\Documents\ANGCMD\4.txt"];
+node1 [label= "Ruta: C:\Users\jkamg\Documents\ANGCMD\cmd.txt"];
+node0 -> node1 ;
+node1 -> node0 ;
+}

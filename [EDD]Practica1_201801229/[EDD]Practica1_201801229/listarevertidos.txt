@@ -1,0 +1,8 @@
+digraph revertido { 
+node [shape = record, height=.1, fillcolor="crimson"]node0 [label= "Buscada: que \n  Reemplazo: q \n  Estado: Revertido \n  Palabra: NULL \n Posicion: NULL "]; 
+ node1 [label= "Buscada: hola \n  Reemplazo: onda \n  Estado: Revertido \n  Palabra: NULL \n Posicion: NULL "]; 
+ node2 [label= "Buscada: cosxa \n  Reemplazo: cosa \n  Estado: Revertido \n  Palabra: NULL \n Posicion: NULL "]; 
+ node0 -> node1 ; 
+node1 -> node2 ; 
+node2 -> node3 ; 
+}

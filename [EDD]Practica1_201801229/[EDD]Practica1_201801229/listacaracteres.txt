@@ -1,0 +1,10 @@
+digraph lista{ 
+h1 -> o2 ;
+o2 -> h1 ;
+o2 -> l3 ;
+l3 -> o2 ;
+l3 -> a4 ;
+a4 -> l3 ;
+a4 -> fin ;
+
+}
